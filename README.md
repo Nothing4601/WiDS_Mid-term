@@ -133,9 +133,3 @@ Model performance was evaluated using:
 
 ---
 
-
-## ▶️ How to Run
-```bash
-git clone <repository-url>
-cd <repository-folder>
-jupyter notebook Assigment_2.ipynb

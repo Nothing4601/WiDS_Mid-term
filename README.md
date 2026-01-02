@@ -62,14 +62,6 @@ The dataset contains information about housing blocks in California.
   - `totalRooms`
   - `population`
 
-#### Common Methods to Reduce Skewness
-- Log transformation
-- Square root transformation
-- Box-Cox transformation
-- Winsorization / clipping extreme values
-
-(Explained as comments in the notebook)
-
 ---
 
 ### Outlier Detection (Box Plots)
@@ -100,11 +92,6 @@ The dataset contains information about housing blocks in California.
 
 ### Principal Component Analysis (PCA)
 
-#### Why Scaling is Required Before PCA
-- PCA is variance-based
-- Features with larger magnitudes dominate principal components
-- Standardization ensures equal contribution from all features
-
 #### PCA Workflow
 - Standardized features
 - Applied PCA
@@ -131,10 +118,12 @@ Model performance was evaluated using:
 - **Mean Absolute Error (MAE)**
 - **R² Score**
 
-#### Key Insights
-- **Is high R2 score always good?** 
-- **Low training loss is not always preferred**  
-
+#### Questions
+- **Q.1)Explain most widely used methods to eliminate skewness of column features**
+- **Q.2) Why Scaling is Required Before PCA?**
+- **Q.3) Is high R2 score always good?** 
+- **Q.4) Is low training loss always preferred?**  
+> all above questions answers given in jupyter notebook
 ---
 
 ###  Diagnostic Plots

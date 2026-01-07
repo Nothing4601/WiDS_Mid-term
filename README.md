@@ -1,4 +1,4 @@
-# Assignment 2: Study of Models  
+# Study of Models (UID : 1)  
 ## California Housing Price Prediction
 
 ##  Overview
